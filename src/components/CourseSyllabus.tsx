@@ -4,79 +4,79 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const syllabusData = [
   {
-    id: "agriculture",
-    title: "Agriculture & Rural Development",
-    icon: BookOpen,
-    topics: [
-      "Indian Agriculture - Features, Problems & Reforms",
-      "Cropping Patterns & Agricultural Productivity",
-      "Food Security & Public Distribution System",
-      "Agricultural Marketing & Price Policy",
-      "Rural Development Programmes & Schemes",
-      "Cooperative Movement in India",
-      "Watershed Management & Sustainable Agriculture",
-      "Agricultural Finance & Credit System"
-    ]
-  },
-  {
-    id: "economics",
-    title: "Economic & Social Issues",
+    id: "mathematics",
+    title: "Mathematics",
     icon: Calculator,
     topics: [
-      "Indian Economy Overview",
-      "Economic Planning & Five Year Plans",
-      "Monetary & Fiscal Policy",
-      "Banking System in India",
-      "Financial Markets & Institutions",
-      "International Trade & Balance of Payments",
-      "Poverty, Unemployment & Human Development",
-      "Social Issues & Government Policies"
+      "Number System and Simplification",
+      "Percentage and Ratio & Proportion",
+      "Average, Time & Work, Time & Distance",
+      "Simple and Compound Interest",
+      "Profit & Loss, Partnership",
+      "Algebra and Linear Equations",
+      "Geometry and Mensuration",
+      "Trigonometry and Statistics"
     ]
   },
   {
     id: "reasoning",
-    title: "Reasoning, Quant & English",
+    title: "General Intelligence & Reasoning",
     icon: MessageSquare,
     topics: [
-      "Logical Reasoning - Verbal & Non-Verbal",
-      "Analytical Reasoning & Puzzles",
-      "Data Interpretation & Analysis",
-      "Quantitative Aptitude - Arithmetic",
-      "Algebra, Geometry & Mensuration",
-      "English Language - Grammar & Vocabulary",
-      "Reading Comprehension",
-      "Writing Skills & Essay Writing"
+      "Analogies and Similarities",
+      "Differences and Classification",
+      "Arithmetic Reasoning",
+      "Non-Verbal Reasoning",
+      "Visual Memory and Pattern Recognition",
+      "Observation and Relationship Concepts",
+      "Arithmetical Computation",
+      "Analysis and Judgment"
     ]
   },
   {
-    id: "computer",
-    title: "Computer Awareness",
+    id: "awareness",
+    title: "General Awareness",
+    icon: BookOpen,
+    topics: [
+      "Current Affairs (National & International)",
+      "Indian History and Culture",
+      "Indian Geography and Environment",
+      "Indian Constitution and Polity",
+      "Economics and Banking",
+      "General Science and Technology",
+      "Sports and Games",
+      "Awards and Honors"
+    ]
+  },
+  {
+    id: "technical",
+    title: "Technical Subjects (ALP & Technical)",
     icon: Monitor,
     topics: [
-      "Computer Fundamentals & Hardware",
-      "Operating Systems & Software",
-      "Internet & Email Basics",
-      "MS Office Suite - Word, Excel, PowerPoint",
-      "Database Management Systems",
-      "Computer Networks & Security",
-      "Digital Banking & E-Commerce",
-      "Latest Technology Trends"
+      "Basic Electronics Engineering",
+      "Electrical Engineering Fundamentals",
+      "Mechanical Engineering Basics",
+      "Computer Science and IT",
+      "Civil Engineering Concepts",
+      "Engineering Drawing",
+      "Workshop Technology",
+      "Safety and Environmental Engineering"
     ]
   }
 ];
 
 const CourseSyllabus = () => {
-  const [activeSection, setActiveSection] = useState<string>("agriculture");
+  const [activeSection, setActiveSection] = useState<string>("mathematics");
 
   return (
     <section className="py-20 section-gradient">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Complete Course Syllabus
+            Detailed Syllabus
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive coverage of all subjects as per latest NABARD exam pattern
+            Comprehensive curriculum covering all RRB exam subjects with latest updates
           </p>
         </div>
 

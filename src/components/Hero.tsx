@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Download, Play } from "lucide-react";
-import heroImage from "@/assets/nabard-hero.jpg";
+import heroImage from "@/assets/rrb-hero.jpg";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
-          alt="NABARD Course Hero"
+          alt="RRB Course Hero"
           className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70"></div>
@@ -21,14 +21,14 @@ const Hero = () => {
           <div className="text-white fade-in">
             <div className="mb-6">
               <span className="inline-block bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-medium mb-4">
-                🏆 India's Trusted Banking Academy
+                🚂 Tamil Nadu's Leading Railway Academy
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                NABARD Grade A & B
-                <span className="block text-accent">Online Course</span>
+                RRB NTPC | Group D | ALP
+                <span className="block text-accent">Coaching in Tamil Nadu</span>
               </h1>
               <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed">
-                Ace your NABARD preparation with India's trusted faculty and comprehensive study materials
+                Crack Railway Exams with India's Top-Ranked Coaching Institute
               </p>
             </div>
 
@@ -38,7 +38,7 @@ const Hero = () => {
                 size="lg" 
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                Join Now
+                🎯 Join Free Demo
                 <Play className="ml-2 h-5 w-5" />
               </Button>
               <Button 
@@ -46,7 +46,7 @@ const Hero = () => {
                 size="lg"
                 className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300"
               >
-                Download Syllabus
+                📥 Download Syllabus
                 <Download className="ml-2 h-5 w-5" />
               </Button>
             </div>
@@ -54,16 +54,16 @@ const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">5000+</div>
-                <div className="text-sm text-primary-foreground/80">Students Enrolled</div>
+                <div className="text-3xl font-bold text-accent">8000+</div>
+                <div className="text-sm text-primary-foreground/80">Railway Selections</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">95%</div>
+                <div className="text-3xl font-bold text-accent">92%</div>
                 <div className="text-sm text-primary-foreground/80">Success Rate</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">15+</div>
-                <div className="text-sm text-primary-foreground/80">Expert Faculty</div>
+                <div className="text-3xl font-bold text-accent">20+</div>
+                <div className="text-sm text-primary-foreground/80">Expert Trainers</div>
               </div>
             </div>
           </div>
@@ -79,10 +79,10 @@ const Hero = () => {
               </div>
               <div className="mt-6 text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                  Free Demo Class Available
+                  Free Railway Demo Class
                 </h3>
                 <p className="text-gray-600">
-                  Experience our teaching methodology before enrolling
+                  Experience our Tamil + English coaching methodology
                 </p>
               </div>
             </div>

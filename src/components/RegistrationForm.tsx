@@ -60,7 +60,7 @@ const RegistrationForm = () => {
           {/* Left Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Start Your NABARD Journey Today
+              Start Your Railway Career Journey
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Join thousands of successful candidates. Fill the form to get instant access to course details and special offers.
@@ -117,7 +117,7 @@ const RegistrationForm = () => {
             <Card className="shadow-2xl border-0">
               <CardHeader className="bg-gradient-to-r from-primary to-secondary text-white rounded-t-lg">
                 <CardTitle className="text-2xl text-center">
-                  Enroll Now - NABARD Course
+                  Register Now - RRB Course
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-8">
@@ -201,10 +201,11 @@ const RegistrationForm = () => {
                         <SelectValue placeholder="Select your course" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="nabard-grade-a">NABARD Grade A</SelectItem>
-                        <SelectItem value="nabard-grade-b">NABARD Grade B</SelectItem>
-                        <SelectItem value="nabard-combo">NABARD Grade A + B Combo</SelectItem>
-                        <SelectItem value="nabard-mock">Mock Test Series Only</SelectItem>
+                        <SelectItem value="rrb-ntpc">RRB NTPC</SelectItem>
+                        <SelectItem value="rrb-groupd">RRB Group D</SelectItem>
+                        <SelectItem value="rrb-alp">RRB ALP</SelectItem>
+                        <SelectItem value="rrb-technical">RRB Technical Posts</SelectItem>
+                        <SelectItem value="rrb-combo">All RRB Courses</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -213,7 +214,7 @@ const RegistrationForm = () => {
                     type="submit" 
                     className="w-full h-12 bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
                   >
-                    Enroll Now - Get Started Today!
+                    Submit & Get Free Counselling
                   </Button>
 
                   <p className="text-sm text-muted-foreground text-center">

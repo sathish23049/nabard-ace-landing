@@ -2,44 +2,44 @@ import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, Star, Quote } from "lucide-react";
-import successImage from "@/assets/success-students.jpg";
+import successImage from "@/assets/rrb-students.jpg";
 
 const testimonials = [
   {
     id: 1,
-    name: "Priya Sharma",
-    position: "NABARD Grade A Officer",
-    location: "Delhi",
+    name: "Karthik Raj",
+    position: "Station Master, RRB NTPC",
+    location: "Chennai",
     rating: 5,
-    testimonial: "Shankar Banking Academy's comprehensive course helped me crack NABARD Grade A in my first attempt. The faculty's guidance and mock tests were excellent. The study material was updated and covered the entire syllabus perfectly.",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b5bc?w=150&h=150&fit=crop&crop=face"
-  },
-  {
-    id: 2,
-    name: "Rajesh Kumar",
-    position: "NABARD Grade B Officer",
-    location: "Bangalore",
-    rating: 5,
-    testimonial: "The interactive live classes and doubt clearing sessions made all the difference. I secured rank 45 in NABARD Grade B exam. The faculty's expertise in agriculture and rural development topics is outstanding.",
+    testimonial: "The structured approach and Tamil medium classes helped me crack RRB NTPC in my first attempt. The faculty's guidance and practice tests were excellent. The study material covered the entire syllabus perfectly.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
   },
   {
-    id: 3,
-    name: "Anita Patel",
-    position: "NABARD Grade A Officer",
-    location: "Mumbai",
+    id: 2,
+    name: "Meera Devi",
+    position: "Track Maintainer, RRB Group D",
+    location: "Madurai",
     rating: 5,
-    testimonial: "Best decision I made was joining this academy. The structured approach, regular assessments, and personalized feedback helped me improve consistently. Now I'm serving as Grade A officer in NABARD Mumbai.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    testimonial: "The interactive classes and doubt clearing sessions made all the difference. I secured a good rank in RRB Group D exam. The affordable fees and quality coaching gave me confidence to face the exam.",
+    image: "https://images.unsplash.com/photo-1494790108755-2616b612b5bc?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    id: 3,
+    name: "Arjun Singh",
+    position: "Assistant Loco Pilot, RRB ALP",
+    location: "Coimbatore",
+    rating: 5,
+    testimonial: "Best decision I made was joining this academy. The technical subject coaching was outstanding. The structured approach and regular assessments helped me clear both CBT 1 and CBT 2 successfully.",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
   },
   {
     id: 4,
-    name: "Vikash Singh",
-    position: "NABARD Grade B Officer",
-    location: "Patna",
+    name: "Divya Lakshmi",
+    position: "Junior Engineer, RRB Technical",
+    location: "Salem",
     rating: 5,
-    testimonial: "The mock test series and performance analysis were game-changers for me. I could identify my weak areas and work on them systematically. Thanks to the academy, I cleared NABARD in my second attempt with a good rank.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+    testimonial: "The mock test series and performance analysis were game-changers for me. The faculty's expertise in engineering subjects helped me score high marks. Now I'm proudly serving Indian Railways.",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
   }
 ];
 
@@ -72,7 +72,7 @@ const Testimonials = () => {
             Success Stories
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Hear from our successful students who are now serving in NABARD
+            Hear from our successful students who are now serving in Indian Railways
           </p>
         </div>
 
@@ -91,8 +91,8 @@ const Testimonials = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
                     <div className="absolute bottom-6 left-6 text-white">
-                      <div className="text-3xl font-bold mb-2">5000+</div>
-                      <div className="text-lg">Success Stories</div>
+                      <div className="text-3xl font-bold mb-2">8000+</div>
+                      <div className="text-lg">Railway Success Stories</div>
                     </div>
                   </div>
 
@@ -168,20 +168,20 @@ const Testimonials = () => {
           {/* Additional Success Metrics */}
           <div className="grid md:grid-cols-4 gap-6 mt-16">
             <div className="text-center bg-white rounded-2xl p-6 shadow-lg">
-              <div className="text-3xl font-bold text-primary mb-2">95%</div>
+              <div className="text-3xl font-bold text-primary mb-2">92%</div>
               <div className="text-muted-foreground">Success Rate</div>
             </div>
             <div className="text-center bg-white rounded-2xl p-6 shadow-lg">
-              <div className="text-3xl font-bold text-secondary mb-2">2500+</div>
-              <div className="text-muted-foreground">Grade A Selections</div>
+              <div className="text-3xl font-bold text-secondary mb-2">3500+</div>
+              <div className="text-muted-foreground">NTPC Selections</div>
             </div>
             <div className="text-center bg-white rounded-2xl p-6 shadow-lg">
-              <div className="text-3xl font-bold text-accent mb-2">3000+</div>
-              <div className="text-muted-foreground">Grade B Selections</div>
+              <div className="text-3xl font-bold text-accent mb-2">2800+</div>
+              <div className="text-muted-foreground">Group D Selections</div>
             </div>
             <div className="text-center bg-white rounded-2xl p-6 shadow-lg">
-              <div className="text-3xl font-bold text-primary mb-2">Top 10</div>
-              <div className="text-muted-foreground">All India Ranks</div>
+              <div className="text-3xl font-bold text-primary mb-2">1500+</div>
+              <div className="text-muted-foreground">ALP Selections</div>
             </div>
           </div>
         </div>

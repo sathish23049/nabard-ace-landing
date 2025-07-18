@@ -3,34 +3,34 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const features = [
   {
-    icon: Video,
-    title: "Live Interactive Classes",
-    description: "Join real-time classes with expert faculty and interactive doubt-solving sessions"
+    icon: Users,
+    title: "Expert Trainers",
+    description: "Learn from experienced faculty with proven track record in Railway coaching"
   },
   {
     icon: BookOpen,
-    title: "Full Syllabus Coverage",
-    description: "Complete coverage of Agriculture, Rural Development, Economics, Reasoning & Quant"
-  },
-  {
-    icon: FileText,
-    title: "Study Materials & PDFs",
-    description: "Comprehensive study materials, notes, and downloadable PDFs for offline study"
-  },
-  {
-    icon: Users,
-    title: "Expert Faculty",
-    description: "Learn from experienced faculty with proven track record in banking exams"
+    title: "Tamil + English Batches",
+    description: "Choose from Tamil or English medium classes as per your comfort"
   },
   {
     icon: Trophy,
-    title: "Mock Tests & Practice",
-    description: "Regular mock tests and practice sessions to evaluate your preparation"
+    title: "100+ Practice Tests",
+    description: "Extensive practice with mock tests designed as per latest exam pattern"
   },
   {
     icon: MessageCircle,
     title: "Doubt Clearing Sessions",
-    description: "Dedicated doubt clearing sessions to resolve all your queries"
+    description: "Regular doubt clearing sessions to ensure concept clarity"
+  },
+  {
+    icon: Video,
+    title: "Affordable Fees",
+    description: "Quality coaching at affordable fees with flexible payment options"
+  },
+  {
+    icon: FileText,
+    title: "Proven Results",
+    description: "Thousands of successful candidates placed in Indian Railways"
   }
 ];
 
@@ -40,10 +40,10 @@ const CourseFeatures = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Course Features
+            Why Choose Us
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Everything you need to crack NABARD Grade A & B exams in one comprehensive package
+            Everything you need to crack Railway exams and secure your dream job
           </p>
         </div>
 
@@ -73,42 +73,42 @@ const CourseFeatures = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-3xl font-bold text-foreground mb-6">
-                  Meet Our Expert Faculty
+                  Meet Our Railway Expert Faculty
                 </h3>
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                      <span className="text-primary-foreground font-bold">DR</span>
+                      <span className="text-primary-foreground font-bold">RS</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Dr. Rajesh Sharma</h4>
-                      <p className="text-muted-foreground">Agriculture & Rural Development Expert</p>
+                      <h4 className="font-semibold text-foreground">R. Selvakumar</h4>
+                      <p className="text-muted-foreground">Mathematics & Reasoning Expert (Tamil)</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
-                      <span className="text-secondary-foreground font-bold">PR</span>
+                      <span className="text-secondary-foreground font-bold">PK</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Prof. Priya Gupta</h4>
-                      <p className="text-muted-foreground">Economics & Financial Awareness</p>
+                      <h4 className="font-semibold text-foreground">Priya Krishnan</h4>
+                      <p className="text-muted-foreground">General Awareness & Current Affairs</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
-                      <span className="text-accent-foreground font-bold">AM</span>
+                      <span className="text-accent-foreground font-bold">VR</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Amit Kumar</h4>
-                      <p className="text-muted-foreground">Reasoning & Quantitative Aptitude</p>
+                      <h4 className="font-semibold text-foreground">Vikram Raj</h4>
+                      <p className="text-muted-foreground">Technical Subjects & ALP Coaching</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                      <span className="text-primary-foreground font-bold">SK</span>
+                      <span className="text-primary-foreground font-bold">SM</span>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Sunita Joshi</h4>
+                      <h4 className="font-semibold text-foreground">Sita Malhotra</h4>
                       <p className="text-muted-foreground">English Language & Communication</p>
                     </div>
                   </div>
@@ -119,8 +119,8 @@ const CourseFeatures = () => {
                   <div className="w-full h-full bg-white rounded-3xl flex items-center justify-center">
                     <div className="text-center">
                       <Users className="h-24 w-24 text-primary mx-auto mb-4" />
-                      <p className="text-lg font-semibold text-foreground">15+ Expert Faculty</p>
-                      <p className="text-muted-foreground">With 10+ Years Experience</p>
+                      <p className="text-lg font-semibold text-foreground">20+ Expert Trainers</p>
+                      <p className="text-muted-foreground">With Railway Expertise</p>
                     </div>
                   </div>
                 </div>

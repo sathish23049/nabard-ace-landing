@@ -5,33 +5,33 @@ import { Card, CardContent } from "@/components/ui/card";
 const faqData = [
   {
     id: 1,
-    question: "What is the duration of the NABARD Grade A & B course?",
-    answer: "The complete course duration is 6 months for Grade A and 4 months for Grade B. This includes live classes, mock tests, and revision sessions. You also get lifetime access to recorded lectures and study materials."
+    question: "What is the eligibility criteria for different RRB exams?",
+    answer: "RRB NTPC: Graduate in any discipline, age 18-33 years. RRB Group D: 10th/12th pass, age 18-33 years. RRB ALP: 10th/ITI or equivalent, age 18-28 years. Age relaxations apply for reserved categories."
   },
   {
     id: 2,
-    question: "Are the classes live or recorded?",
-    answer: "We offer both live interactive classes and recorded sessions. Live classes are conducted by expert faculty with real-time doubt solving. All live sessions are recorded and made available for revision within 24 hours."
+    question: "How long is the RRB coaching course duration?",
+    answer: "Our comprehensive RRB course is designed for 4-6 months, including live classes, practice sessions, and mock tests. We also offer intensive crash courses of 2-3 months duration."
   },
   {
     id: 3,
-    question: "What study materials are provided?",
-    answer: "Complete study package includes printed books, PDFs, practice question banks, previous year papers, current affairs updates, and exclusive notes prepared by our faculty. All materials are updated as per latest exam pattern."
+    question: "Are classes available in Tamil and English?",
+    answer: "Yes, we offer coaching in both Tamil and English medium. Students can choose their preferred language during enrollment to ensure better understanding and comfort."
   },
   {
     id: 4,
-    question: "How many mock tests are included?",
-    answer: "The course includes 50+ mock tests for each grade (A & B), including sectional tests, full-length tests, and previous year paper tests. Each test comes with detailed analysis and performance tracking."
+    question: "What study materials are provided?",
+    answer: "We provide printed books, online PDFs, current affairs updates, practice test series, and access to our digital LMS platform with video lectures and doubt clearing support."
   },
   {
     id: 5,
-    question: "Is there any doubt clearing support?",
-    answer: "Yes, we provide dedicated doubt clearing sessions twice a week. You can ask questions through our app, WhatsApp, or during live sessions. Our faculty responds to all queries within 24 hours."
+    question: "How many practice tests are included?",
+    answer: "Our course includes 100+ mock tests, 200+ sectional tests, and daily practice quizzes. All tests follow the latest RRB exam pattern and difficulty level."
   },
   {
     id: 6,
-    question: "What is the refund policy?",
-    answer: "We offer a 7-day money-back guarantee if you're not satisfied with the course quality. Refunds are processed within 15-20 working days after the refund request is approved."
+    question: "What is the fee structure and are there any scholarships?",
+    answer: "We offer competitive and affordable fee structure with EMI options. Merit-based scholarships and discounts are available for early enrollment. Contact our counseling team for details."
   },
   {
     id: 7,
@@ -40,8 +40,8 @@ const faqData = [
   },
   {
     id: 8,
-    question: "What is the fee structure?",
-    answer: "Grade A course: ₹25,000, Grade B course: ₹20,000, Combo package: ₹40,000. We offer EMI options and special discounts for early enrollment. Contact us for current offers and scholarship details."
+    question: "Do you provide job placement assistance?",
+    answer: "Yes, we provide complete guidance for document verification, medical examination, and joining formalities. Our alumni network helps with placement support and career guidance."
   }
 ];
 
@@ -67,7 +67,7 @@ const FAQ = () => {
             </h2>
           </div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Find answers to common questions about our NABARD preparation course
+            Find answers to common questions about our RRB preparation course
           </p>
         </div>
 
